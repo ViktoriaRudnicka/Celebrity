@@ -6,7 +6,7 @@
 
 .wrap {
     display: flex;
-    background-image: url(/orig-8-optimized.webp);
+    background-image: url(./orig-8-optimized.webp);
     justify-content: center;
     height: 100vh;
     width: 100%;
