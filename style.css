@@ -114,3 +114,14 @@ h2 {
     border-bottom: 2px solid white;
     text-align: center;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
