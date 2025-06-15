@@ -115,13 +115,11 @@ h2 {
     text-align: center;
 }
 @media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
+  .desktop-only {
+    display: none;
   }
 
-  .menu {
-    flex-direction: column;
-    gap: 10px;
+  .mobile-only {
+    display: block;
   }
 }
